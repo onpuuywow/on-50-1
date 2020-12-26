@@ -1,0 +1,135 @@
+const express = require("express");
+const app = express();
+
+app.listen(() => console.log("Server started"));
+
+app.use('/ping', (req, res) => {
+  res.send(new Date());
+});
+
+
+const Discord = require('discord.js');
+const cmd = require("node-cmd");
+const ms = require("ms");
+const fs = require('fs');
+const ytdl = require("ytdl-core");
+const canvas = require("canvas");
+const convert = require("hh-mm-ss")
+const fetchVideoInfo = require("youtube-info");
+const simpleytapi = require('simple-youtube-api')
+const util = require("util")
+const gif = require("gif-search");
+const jimp = require("jimp");
+const guild = require('guild');
+const hastebins = require('hastebin-gen');
+const getYoutubeID = require('get-youtube-id');
+const pretty = require("pretty-ms");
+const moment = require('moment');
+const request = require('request');
+const dateFormat = require('dateformat');
+const client = new Discord.Client();
+const client2 = new Discord.Client();
+const client3 = new Discord.Client();
+const client4 = new Discord.Client();
+const client5 = new Discord.Client();
+const client6 = new Discord.Client();
+const client7 = new Discord.Client();
+const client8 = new Discord.Client();
+const client9 = new Discord.Client();
+const client10 = new Discord.Client();
+const client11 = new Discord.Client();
+const client12 = new Discord.Client();
+const client13 = new Discord.Client();
+const client14 = new Discord.Client();
+const client15 = new Discord.Client();
+const client16 = new Discord.Client();
+const client17 = new Discord.Client();
+const client18 = new Discord.Client();
+const client19 = new Discord.Client();
+const client20 = new Discord.Client();
+const client21 = new Discord.Client();
+const client22 = new Discord.Client();
+const client23 = new Discord.Client();
+const client24 = new Discord.Client();
+const client25 = new Discord.Client();
+const client26 = new Discord.Client();
+const client27 = new Discord.Client();
+const client28 = new Discord.Client();
+const client29 = new Discord.Client();
+const client30 = new Discord.Client();
+const client31 = new Discord.Client();
+const client32 = new Discord.Client();
+const client33 = new Discord.Client();
+const client34 = new Discord.Client();
+const client35 = new Discord.Client();
+const client36 = new Discord.Client();
+const client37 = new Discord.Client();
+const client38 = new Discord.Client();
+const client39 = new Discord.Client();
+const client40 = new Discord.Client();
+const client41 = new Discord.Client();
+const client42 = new Discord.Client();
+const client43 = new Discord.Client();
+const client44 = new Discord.Client();
+const client45 = new Discord.Client();
+const client46 = new Discord.Client();
+const client47 = new Discord.Client();
+const client48 = new Discord.Client();
+const client49 = new Discord.Client();
+const client50 = new Discord.Client();
+////////////
+
+
+
+
+client.login(process.env.token1);
+client2.login(process.env.token2);
+client3.login(process.env.token3);
+client4.login(process.env.token4);
+client5.login(process.env.token5);
+client6.login(process.env.token6);
+client7.login(process.env.token7);
+client8.login(process.env.token8);
+client9.login(process.env.token9);
+client10.login(process.env.token10);
+client11.login(process.env.token11);
+client12.login(process.env.token12);
+client13.login(process.env.token13);
+client14.login(process.env.token14);
+client15.login(process.env.token15);
+client16.login(process.env.token16);
+client17.login(process.env.token17);
+client18.login(process.env.token18);
+client19.login(process.env.token19);
+client20.login(process.env.token20);
+client21.login(process.env.token21);
+client22.login(process.env.token22);
+client23.login(process.env.token23);
+client24.login(process.env.token24);
+client25.login(process.env.token25);
+client26.login(process.env.token26);
+client27.login(process.env.token27);
+client28.login(process.env.token28);
+client29.login(process.env.token29);
+client30.login(process.env.token30);
+client31.login(process.env.token31);
+client32.login(process.env.token32);
+client33.login(process.env.token33);
+client34.login(process.env.token34);
+client35.login(process.env.token35);
+client36.login(process.env.token36);
+client37.login(process.env.token37);
+client38.login(process.env.token38);
+client39.login(process.env.token39);
+client40.login(process.env.token40);
+client41.login(process.env.token41);
+client42.login(process.env.token42);
+client43.login(process.env.token43);
+client44.login(process.env.token44);
+client45.login(process.env.token45);
+client46.login(process.env.token46);
+client47.login(process.env.token47);
+client48.login(process.env.token48);
+client49.login(process.env.token49);
+client50.login(process.env.token50);
+////
